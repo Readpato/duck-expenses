@@ -1,8 +1,11 @@
 <template>
-  <div class="app" />
+  <div class="flex">
+    <SideMenu />
+    <div class="app" />
+  </div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
 .app {
   min-height: 100vh;
   min-height: 100dvh;
