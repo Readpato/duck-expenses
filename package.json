@@ -19,6 +19,7 @@
     "@unocss/preset-web-fonts": "^0.57.1",
     "@unocss/reset": "^0.57.1",
     "cypress": "^13.3.3",
+    "gsap": "^3.12.2",
     "typescript": "^5.2.2"
   },
   "devDependencies": {
