@@ -1,13 +1,9 @@
 <template>
-  <div class="flex">
-    <SideMenu />
-    <div class="app" />
+  <div class="flex relative">
+    <SideMenu class="sticky left-0 top-0" />
+    <div class="w-full">
+      <TheHeader />
+      <div class="app" />
+    </div>
   </div>
 </template>
-
-<style lang="scss">
-.app {
-  min-height: 100vh;
-  min-height: 100dvh;
-}
-</style>
